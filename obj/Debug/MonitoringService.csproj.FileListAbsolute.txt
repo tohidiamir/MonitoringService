@@ -1,0 +1,8 @@
+D:\WindowsService1\obj\Debug\MonitoringService.csprojResolveAssemblyReference.cache
+D:\WindowsService1\obj\Debug\MonitoringService.csproj.GenerateResource.Cache
+D:\WindowsService1\bin\Debug\MonitoringService.exe.config
+D:\WindowsService1\bin\Debug\MonitoringService.exe
+D:\WindowsService1\bin\Debug\MonitoringService.pdb
+D:\WindowsService1\obj\Debug\MonitoringService.MasterService.resources
+D:\WindowsService1\obj\Debug\MonitoringService.exe
+D:\WindowsService1\obj\Debug\MonitoringService.pdb
