@@ -136,13 +136,13 @@ namespace MonitoringService.Classes
 
                     if (Varibale.Error_counter_ghoti == 2)
                     {
-                        LogManager log = new LogManager(1, Enum.EnumKindDevice.counter, Enum.EnumLevel.high, Enum.EnumLOg.error_counter_ghoti, frmIndex.counter[1].Text.ToString());
+                        LogManager log = new LogManager(1, Enum.EnumKindDevice.counter, Enum.EnumLevel.high, Enum.EnumLOg.error_counter_ghoti, "");
 
                     }
                     else if (Varibale.Error_counter_ghoti == 5)
                     {
                         Varibale.Status_active_counter_ghoti = false;
-                        LogManager log2 = new LogManager(1, Enum.EnumKindDevice.counter, Enum.EnumLevel.high, Enum.EnumLOg.deactive_counter_ghoti, frmIndex.counter[1].Text.ToString());
+                        LogManager log2 = new LogManager(1, Enum.EnumKindDevice.counter, Enum.EnumLevel.high, Enum.EnumLOg.deactive_counter_ghoti, "");
                     }
 
                     //frmIndex.counter[1].Text = Varibale.Error_counter_ghoti + "خطا";

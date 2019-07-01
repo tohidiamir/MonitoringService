@@ -5,6 +5,7 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
 using System.Configuration.Install;
+using System.Reflection;
 
 namespace MonitoringService
 {
