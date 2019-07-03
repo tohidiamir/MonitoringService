@@ -119,8 +119,8 @@ namespace MonitoringService.Classes
            
 
 
-            CreateSerialPort.serialPort_1.Dispose();
-            CreateSerialPort.serialPort_1.Close();
+            //CreateSerialPort.serialPort_1.Dispose();
+            //CreateSerialPort.serialPort_1.Close();
 
             if (CreateSerialPort.serialPort_1.IsOpen)
             {

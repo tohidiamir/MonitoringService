@@ -31,6 +31,10 @@ namespace MonitoringService
 
         protected override void OnStart(string[] args)
         {
+            Varibale.VaribleSetting();
+
+            CreateSerialPort cs = new CreateSerialPort();
+
             timer.Interval = 60000; // 60 seconds
             timer.Elapsed += Timer_Elapsed;
             timer.Start();
