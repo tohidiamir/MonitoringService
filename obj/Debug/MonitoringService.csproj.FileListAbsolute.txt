@@ -6,3 +6,12 @@ D:\WindowsService1\bin\Debug\MonitoringService.pdb
 D:\WindowsService1\obj\Debug\MonitoringService.MasterService.resources
 D:\WindowsService1\obj\Debug\MonitoringService.exe
 D:\WindowsService1\obj\Debug\MonitoringService.pdb
+C:\repos\stuff\MonitoringService\bin\Debug\MonitoringService.exe.config
+C:\repos\stuff\MonitoringService\bin\Debug\MonitoringService.exe
+C:\repos\stuff\MonitoringService\bin\Debug\MonitoringService.pdb
+C:\repos\stuff\MonitoringService\obj\Debug\MonitoringService.csprojAssemblyReference.cache
+C:\repos\stuff\MonitoringService\obj\Debug\MonitoringService.MasterService.resources
+C:\repos\stuff\MonitoringService\obj\Debug\MonitoringService.csproj.GenerateResource.cache
+C:\repos\stuff\MonitoringService\obj\Debug\MonitoringService.csproj.CoreCompileInputs.cache
+C:\repos\stuff\MonitoringService\obj\Debug\MonitoringService.exe
+C:\repos\stuff\MonitoringService\obj\Debug\MonitoringService.pdb
