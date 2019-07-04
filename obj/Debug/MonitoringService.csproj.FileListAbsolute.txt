@@ -15,3 +15,4 @@ C:\repos\stuff\MonitoringService\obj\Debug\MonitoringService.csproj.GenerateReso
 C:\repos\stuff\MonitoringService\obj\Debug\MonitoringService.csproj.CoreCompileInputs.cache
 C:\repos\stuff\MonitoringService\obj\Debug\MonitoringService.exe
 C:\repos\stuff\MonitoringService\obj\Debug\MonitoringService.pdb
+D:\WindowsService1\obj\Debug\MonitoringService.ProjectInstaller.resources

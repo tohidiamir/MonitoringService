@@ -34,7 +34,7 @@ namespace MonitoringService
 
         static void RunInteractive(ServiceBase[] servicesToRun)
         {
-            //Console.WriteLine("Services running in interactive mode.");
+            Console.WriteLine("Services running in interactive mode.");
             //Console.WriteLine();
 
             var onStartMethod = typeof(ServiceBase).GetMethod("OnStart",

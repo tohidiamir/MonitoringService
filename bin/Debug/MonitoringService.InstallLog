@@ -1,0 +1,13 @@
+﻿Installing assembly 'D:\WindowsService1\bin\Debug\MonitoringService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WindowsService1\bin\Debug\MonitoringService.InstallLog
+   assemblypath = D:\WindowsService1\bin\Debug\MonitoringService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the D:\WindowsService1\bin\Debug\MonitoringService.exe assembly.
+Committing assembly 'D:\WindowsService1\bin\Debug\MonitoringService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WindowsService1\bin\Debug\MonitoringService.InstallLog
+   assemblypath = D:\WindowsService1\bin\Debug\MonitoringService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the D:\WindowsService1\bin\Debug\MonitoringService.exe assembly.
+Remove InstallState file because there are no installers.
