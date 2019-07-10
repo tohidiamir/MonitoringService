@@ -256,206 +256,213 @@ namespace MonitoringService.Classes
 
                 while (dr.Read())
                 {
-
-                    switch (dr["name"].ToString())
+                    try
                     {
+                        switch (dr["name"].ToString())
+                    {
+                    
                         case "Autoclav_temp_max":
                             Varibale.Autoclav_Temp_High = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Autoclav_temp_min":
                             Varibale.Autoclav_Temp_Low = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Autoclav_pres_max":
                             Varibale.Autoclav_Pres_high = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Autoclav_pres_min":
                             Varibale.Autoclav_Pres_Low = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Autoclav_timer_max":
                             Varibale.Autoclav_Timer_max = Convert.ToInt32(dr["value"].ToString());
-                            break;
+                        break;
 
 
                         case "Baking_temp_max":
                             Varibale.Baking_Temp_High = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Baking_temp_min":
                             Varibale.Baking_Temp_Low = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Baking_pres_max":
                             Varibale.Baking_Pres_high = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Baking_pres_min":
                             Varibale.Baking_Pres_Low = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Baking_timer_max":
                             Varibale.Baking_Timer_max = Convert.ToInt32(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "totalAutoclav":
                             Varibale.totalAutoclav = Convert.ToInt32(dr["value"].ToString()) + 1;
-                            break;
+                        break;
 
                         case "totalBaking":
                             Varibale.totalBaking = Convert.ToInt32(dr["value"].ToString()) + 1;
-                            break;
+                        break;
 
                         case "Frig_1_Temp_High":
                             Varibale.Frig_Temp_High[1] = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Frig_1_Temp_Low":
                             Varibale.Frig_Temp_Low[1] = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Frig_2_Temp_High":
                             Varibale.Frig_Temp_High[2] = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Frig_2_Temp_Low":
                             Varibale.Frig_Temp_Low[2] = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Frig_3_Temp_High":
                             Varibale.Frig_Temp_High[3] = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Frig_3_Temp_Low":
                             Varibale.Frig_Temp_Low[3] = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Frig_4_Temp_High":
                             Varibale.Frig_Temp_High[4] = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Frig_4_Temp_Low":
                             Varibale.Frig_Temp_Low[4] = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Frig_5_Temp_High":
                             Varibale.Frig_Temp_High[5] = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Frig_5_Temp_Low":
                             Varibale.Frig_Temp_Low[5] = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Oil_Temp_High":
                             Varibale.Oil_Temp_High = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Oil_Temp_Low":
                             Varibale.Oil_Temp_Low = Convert.ToDouble(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "portname1":
                             Varibale.portname1 = dr["value"].ToString();
-                            break;
+                        break;
 
                         case "buadrate1":
                             Varibale.buadrate1 = Convert.ToInt32(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "parity1":
                             Varibale.parity1 = PublicMehotd.ConvertStringToParity(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Frig_1_number":
                             Varibale.frig_number[1] = Convert.ToInt32(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Frig_2_number":
                             Varibale.frig_number[2] = Convert.ToInt32(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Frig_3_number":
                             Varibale.frig_number[3] = Convert.ToInt32(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Frig_4_number":
                             Varibale.frig_number[4] = Convert.ToInt32(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "Frig_5_number":
                             Varibale.frig_number[5] = Convert.ToInt32(dr["value"].ToString());
-                            break;
+                        break;
 
 
                         case "Oil_number":
                             Varibale.oil_number = Convert.ToInt32(dr["value"].ToString());
-                            break;
+                        break;
 
                       
 
                         case "save_count":
                             Varibale.Save_count = Convert.ToInt32(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "save_count_frig":
                             Varibale.Save_count_frig = Convert.ToInt32(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "save_count_baking_server":
                             Varibale.save_count_baking_server = Convert.ToInt32(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "save_count_autoclav_server":
                             Varibale.save_count_autoclav_server = Convert.ToInt32(dr["value"].ToString());
-                            break;
+                        break;
 
                         case "port_counter":
                             Varibale.port_counter = dr["value"].ToString();
-                            break;
+                        break;
 
                         case "zarin_product_ghabl":
                             Varibale.zarin.Add("zarin_product_ghabl", dr["value"].ToString());
-                            break;
+                        break;
 
                         case "zarin_product_bad":
                             Varibale.zarin.Add("zarin_product_bad", dr["value"].ToString());
-                            break;
+                        break;
 
                         case "brand_ghabl":
                             Varibale.zarin.Add("brand_ghabl", dr["value"].ToString());
-                            break;
+                        break;
 
                         case "brand_bad":
                             Varibale.zarin.Add("brand_bad", dr["value"].ToString());
-                            break;
+                        break;
 
                         case "vazn_ghabl":
                             Varibale.zarin.Add("vazn_ghabl", dr["value"].ToString());
-                            break;
+                        break;
 
                         case "vazn_bad":
                             Varibale.zarin.Add("vazn_bad", dr["value"].ToString());
-                            break;
+                        break;
 
                         case "baste_bandi_ghabl":
                             Varibale.zarin.Add("baste_bandi_ghabl", dr["value"].ToString());
-                            break;
+                        break;
 
                         case "baste_bandi_bad":
                             Varibale.zarin.Add("baste_bandi_bad", dr["value"].ToString());
-                            break;
+                        break;
 
                         case "darb_ghabl":
                             Varibale.zarin.Add("darb_ghabl", dr["value"].ToString());
-                            break;
+                        break;
 
                         case "darb_bad":
                             Varibale.zarin.Add("darb_bad", dr["value"].ToString());
-                            break;
+                        break;
+                   
                     }
-
+                    }
+                    catch (Exception ex)
+                    {
+                        log_system.saveLogSystem(ex, "error read value =" + dr["value"].ToString());
+                    }
 
                 }
 
@@ -465,7 +472,7 @@ namespace MonitoringService.Classes
             catch (Exception ex)
             {
                 //MessageBox.Show(ex.StackTrace);
-                log_system.saveLogSystem(ex, "");
+                log_system.saveLogSystem(ex, "Variable Error " );
             }
 
         }
