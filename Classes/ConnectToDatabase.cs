@@ -13,27 +13,53 @@ namespace MonitoringService.Classes
         public static SqlConnection NewConnectToDatabase()
         {
             SqlConnection cn = new SqlConnection();
+            try
+            {
+              
 
-            cn.ConnectionString = readFromAppConfig("stringConnect");
+                cn.ConnectionString = readFromAppConfig("stringConnect");
+
+            }
+            catch (Exception ex)
+            {
+                log_system.saveLogSystem(ex, "new connect databas e");
+            }
 
             return cn;
+
         }
 
         public static SqlCommand NewSqlCommand(CommandType type, string commandText, SqlConnection cn)
         {
             SqlCommand cmd = new SqlCommand();
-            cmd.CommandType = type;
-            cmd.CommandText = commandText;
-            cmd.Connection = cn;
-            cmd.CommandTimeout = 20000;
+            try {
+                
+                cmd.CommandType = type;
+                cmd.CommandText = commandText;
+                cmd.Connection = cn;
+                cmd.CommandTimeout = 20000;
+                
+            }
+            catch (Exception ex)
+            {
+                log_system.saveLogSystem(ex, "new sql command");
+            }
+
             return cmd;
         }
 
         public static string readFromAppConfig(string key)
         {
-            System.Configuration.AppSettingsReader ar = new System.Configuration.AppSettingsReader();
+            try {
+                System.Configuration.AppSettingsReader ar = new System.Configuration.AppSettingsReader();
 
-            return ar.GetValue(key, typeof(string)).ToString();
+                return ar.GetValue(key, typeof(string)).ToString();
+            }
+            catch (Exception ex)
+            {
+                log_system.saveLogSystem(ex , "read from config ");
+                return "";
+            }
         }
 
         public static void FreeLog()
