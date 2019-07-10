@@ -596,7 +596,7 @@ namespace MonitoringService.Classes
             string str = pc.GetYear(DateTime.Today).ToString("0000") + "-" + pc.GetMonth(DateTime.Today).ToString("00") + "-" + pc.GetDayOfMonth(DateTime.Today).ToString("00");
 
             return str;
-        }
+        } 
 
     }
 }

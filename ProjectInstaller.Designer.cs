@@ -33,13 +33,13 @@
             // 
             // serviceProcessInstaller1
             // 
-            this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.LocalService;
+            this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.LocalSystem;
             this.serviceProcessInstaller1.Password = null;
             this.serviceProcessInstaller1.Username = null;
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.Description = "A Service to monitor some sensor";
+            this.serviceInstaller1.Description = "A service to monitor some sensors";
             this.serviceInstaller1.DisplayName = "Monitoring Service";
             this.serviceInstaller1.ServiceName = "MonitoringService";
             // 

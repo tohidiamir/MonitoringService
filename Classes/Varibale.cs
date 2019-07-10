@@ -274,7 +274,7 @@ namespace MonitoringService.Classes
                         break;
 
                         case "Autoclav_pres_min":
-                            Varibale.Autoclav_Pres_Low = Convert.ToDouble(dr["value"].ToString());
+                            Varibale.Autoclav_Pres_Low = Convert.ToDouble(dr["value"].ToString());// 0.2 => error 
                         break;
 
                         case "Autoclav_timer_max":

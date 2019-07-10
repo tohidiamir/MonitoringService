@@ -89,6 +89,21 @@ namespace MonitoringService.Classes
             }
         }
 
+        public static void saveLogMsg(string msg)
+        {
+            string filepath = @"c:\log_monitoring\";
+            string filename = PublicMehotd.RetStringPersianCalenderwithDash() + "-" + DateTime.Now.Hour.ToString("00") + ".txt";
+            checkFileAndFolder(filename);
+
+            using (System.IO.StreamWriter file =
+            File.AppendText(filepath + filename))
+            {
+                file.WriteLine("\n msg = " + msg);
+                file.WriteLine("\n datep = " + PublicMehotd.RetStringPersianCalender());
+                file.WriteLine("\n timep = " + PublicMehotd.RetStringLocalTime());
+            }
+        }
+
         private static void checkFileAndFolder(string filename)
         {
             bool exists = System.IO.Directory.Exists(@"c:\log_monitoring\");

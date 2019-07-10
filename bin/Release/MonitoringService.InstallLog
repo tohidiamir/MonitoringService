@@ -104,3 +104,81 @@ Affected parameters are:
    logtoconsole = 
    logfile = D:\WindowsService1\bin\Release\MonitoringService.InstallLog
    assemblypath = D:\WindowsService1\bin\Release\MonitoringService.exe
+Installing assembly 'D:\WindowsService1\bin\Release\MonitoringService.exe'.
+Affected parameters are:
+   i = 
+   logfile = D:\WindowsService1\bin\Release\MonitoringService.InstallLog
+   assemblypath = D:\WindowsService1\bin\Release\MonitoringService.exe
+   logtoconsole = 
+Rolling back assembly 'D:\WindowsService1\bin\Release\MonitoringService.exe'.
+Affected parameters are:
+   i = 
+   logfile = D:\WindowsService1\bin\Release\MonitoringService.InstallLog
+   assemblypath = D:\WindowsService1\bin\Release\MonitoringService.exe
+   logtoconsole = 
+Installing assembly 'D:\WindowsService1\bin\Release\MonitoringService.exe'.
+Affected parameters are:
+   i = 
+   logfile = D:\WindowsService1\bin\Release\MonitoringService.InstallLog
+   assemblypath = D:\WindowsService1\bin\Release\MonitoringService.exe
+   logtoconsole = 
+Installing service MonitoringService...
+Creating EventLog source MonitoringService in log Application...
+Rolling back assembly 'D:\WindowsService1\bin\Release\MonitoringService.exe'.
+Affected parameters are:
+   i = 
+   logfile = D:\WindowsService1\bin\Release\MonitoringService.InstallLog
+   assemblypath = D:\WindowsService1\bin\Release\MonitoringService.exe
+   logtoconsole = 
+Restoring event log to previous state for source MonitoringService.
+Installing assembly 'D:\WindowsService1\bin\Release\MonitoringService.exe'.
+Affected parameters are:
+   i = 
+   logfile = D:\WindowsService1\bin\Release\MonitoringService.InstallLog
+   assemblypath = D:\WindowsService1\bin\Release\MonitoringService.exe
+   logtoconsole = 
+Installing service MonitoringService...
+Creating EventLog source MonitoringService in log Application...
+Rolling back assembly 'D:\WindowsService1\bin\Release\MonitoringService.exe'.
+Affected parameters are:
+   i = 
+   logfile = D:\WindowsService1\bin\Release\MonitoringService.InstallLog
+   assemblypath = D:\WindowsService1\bin\Release\MonitoringService.exe
+   logtoconsole = 
+Restoring event log to previous state for source MonitoringService.
+Installing assembly 'D:\WindowsService1\bin\Release\MonitoringService.exe'.
+Affected parameters are:
+   i = 
+   logfile = D:\WindowsService1\bin\Release\MonitoringService.InstallLog
+   assemblypath = D:\WindowsService1\bin\Release\MonitoringService.exe
+   logtoconsole = 
+Installing service MonitoringService...
+Creating EventLog source MonitoringService in log Application...
+Rolling back assembly 'D:\WindowsService1\bin\Release\MonitoringService.exe'.
+Affected parameters are:
+   i = 
+   logfile = D:\WindowsService1\bin\Release\MonitoringService.InstallLog
+   assemblypath = D:\WindowsService1\bin\Release\MonitoringService.exe
+   logtoconsole = 
+Restoring event log to previous state for source MonitoringService.
+Uninstalling assembly 'D:\WindowsService1\bin\Release\MonitoringService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WindowsService1\bin\Release\MonitoringService.InstallLog
+   assemblypath = D:\WindowsService1\bin\Release\MonitoringService.exe
+Removing EventLog source MonitoringService.
+Service MonitoringService is being removed from the system...
+Service MonitoringService was successfully removed from the system.
+Installing assembly 'D:\WindowsService1\bin\Release\MonitoringService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WindowsService1\bin\Release\MonitoringService.InstallLog
+   assemblypath = D:\WindowsService1\bin\Release\MonitoringService.exe
+Installing service MonitoringService...
+Service MonitoringService has been successfully installed.
+Creating EventLog source MonitoringService in log Application...
+Committing assembly 'D:\WindowsService1\bin\Release\MonitoringService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WindowsService1\bin\Release\MonitoringService.InstallLog
+   assemblypath = D:\WindowsService1\bin\Release\MonitoringService.exe

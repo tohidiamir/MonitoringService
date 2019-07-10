@@ -5,4 +5,5 @@ D:\WindowsService1\obj\Release\MonitoringService.MasterService.resources
 D:\WindowsService1\obj\Release\MonitoringService.csproj.GenerateResource.Cache
 D:\WindowsService1\obj\Release\MonitoringService.exe
 D:\WindowsService1\obj\Release\MonitoringService.pdb
+D:\WindowsService1\obj\Release\MonitoringService.csprojResolveAssemblyReference.cache
 D:\WindowsService1\obj\Release\MonitoringService.ProjectInstaller.resources
