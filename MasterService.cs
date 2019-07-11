@@ -74,21 +74,21 @@ namespace MonitoringService
 
                     if (Varibale.level_Fetch == 0)
                     {
-                        log_system.saveLogMsg("counter ");
+                        //log_system.saveLogMsg("counter ");
                         Varibale.level_Fetch++;
                         DeviceCounter.deviceCounterConnect();
 
                     }
                     else if (Varibale.level_Fetch == 1)
                     {
-                        log_system.saveLogMsg("autoclav");
+                        //log_system.saveLogMsg("autoclav");
                         Varibale.level_Fetch++;
                         Autoclav.ReadFromAutoclav();
 
                     }
                     else if (Varibale.level_Fetch == 2)
                     {
-                        log_system.saveLogMsg("frig");
+                        //log_system.saveLogMsg("frig");
                         Varibale.level_Fetch = 0;
                         DevOther.DevOtherConnect();
 
@@ -113,7 +113,6 @@ namespace MonitoringService
                         //frmIndex.st_pbx_DisconnectDevice.Visible = false;
                         //frmIndex.st_pbx_connectDevice.Visible = true;
                     }
-
 
                     CreateSerialPort.CLOSESERIAL("TIMER 1", "PLCE READ NOT CLOSE");
 

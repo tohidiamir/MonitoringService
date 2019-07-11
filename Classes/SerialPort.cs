@@ -118,10 +118,6 @@ namespace MonitoringService.Classes
             Varibale.reciveData_STATUS = false;
            
 
-
-            //CreateSerialPort.serialPort_1.Dispose();
-            //CreateSerialPort.serialPort_1.Close();
-
             if (CreateSerialPort.serialPort_1.IsOpen)
             {
                     log_system.saveLogSystem("no-close", part, msg, "");
